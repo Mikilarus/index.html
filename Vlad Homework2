@@ -1,11 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Мой сайт</title>
+    <title>Vladik Homework</title>
 
-    <!-- Подключение шрифтов -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Inter&display=swap" rel="stylesheet">
 
     <style>
@@ -35,14 +33,14 @@
 
         .text::first-letter {
             font-size: 3rem;
-            color: purple;
+            color: rgb(120, 66, 221);
             font-weight: bold;
         }
 
         blockquote {
             font-size: 1.2rem;
             font-style: italic;
-            border-left: 4px solid purple;
+            border-left: 4px solid rgb(221, 98, 221);
             padding-left: 1rem;
         }
     </style>
@@ -50,19 +48,18 @@
 
 <body>
 
-    <h1>Мой сайт</h1>
+    <h1>Vladik Homework</h1>
 
-    <h2>О типографике</h2>
+    <h2>типографик</h2>
 
     <p class="text">
-        Типографика помогает красиво оформлять текст.
-        Шрифты делают сайт удобным и привлекательным.
+        Типографик вроде нужен был.
     </p>
 
     <h2>Цитата</h2>
 
     <blockquote>
-        Хороший дизайн делает жизнь проще.
+        Спасибо за внимание
     </blockquote>
 
 </body>
