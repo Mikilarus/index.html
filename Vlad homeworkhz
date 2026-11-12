@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vlad</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            background: lightgray;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .box {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid blue;
+            background: lightblue;
+        }
+
+        .center {
+            max-width: 300px;
+            margin: 0 auto;
+            background: lightgreen;
+            padding: 10px;
+        }
+
+        .parent {
+            padding: 1px;
+            background: yellow;
+        }
+
+        .child {
+            margin: 30px;
+            padding: 10px;
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Vlad</h1>
+
+    <div class="card">
+        <h2>1</h2>
+        <div class="box">чё-то 300px</div>
+    </div>
+
+    <div class="card">
+        <h2>2</h2>
+        <div class="center">по центру</div>
+    </div>
+
+    <div class="card">
+        <h2>3</h2>
+        <div class="parent">
+            <div class="child">да</div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
