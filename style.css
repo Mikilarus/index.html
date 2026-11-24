@@ -1,0 +1,23 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: gray;
+    text-align: center;
+}
+
+.profile-card {
+    background: white;
+    padding: 20px;
+}
+
+.btn {
+    background: blue;
+}
+
+.profile-card .btn {
+    background: green;
+}
